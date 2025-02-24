@@ -23,7 +23,7 @@ firstProductEl.classList.add('border-primary');
 const secondButtonEl = document.querySelector('#product2 button');
 secondButtonEl.classList.remove('btn-primary');
 
-const cardTitleEl = document.querySelector('#product3 h2');
+const cardTitleEl = document.querySelector('#product3 .card-title');
 cardTitleEl.classList.toggle('text-center');
 
 
